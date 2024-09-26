@@ -1,11 +1,11 @@
-# js-sandbox-face
+# Canvas Sandbox Drawing
 Author: Rose Scoville  
 Date: 2021  
 
 <br />
 
 ### About
-A JavaScript canvas sandbox project featuring a simple face drawing
+A canvas sandbox project featuring a simple face drawing
 
 <br />
 
