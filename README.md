@@ -5,7 +5,7 @@ Date: 2021
 <br />
 
 ### About
-A JavaScript sandbox project featuring a simple face drawing
+A JavaScript canvas sandbox project featuring a simple face drawing
 
 <br />
 
