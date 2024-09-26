@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>A Face</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="1000" height="1000"></canvas>
+
+<script>
+
+    // get canvas & context
+	var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // eyes
+    ctx.beginPath();
+    ctx.arc(150, 300, 50, 0, Math.PI*2, false);
+    ctx.fillStyle = "black";
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.arc(450, 300, 50, 0, Math.PI*2, false);
+    ctx.fillStyle = "black";
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.arc(130, 280, 10, 0, Math.PI*2, false);
+    ctx.fillStyle = "white";
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.arc(430, 280, 10, 0, Math.PI*2, false);
+    ctx.fillStyle = "white";
+    ctx.fill();
+    ctx.closePath();
+
+    // eyebrows
+    ctx.beginPath();
+    ctx.rect(50, 210, 200, 40);
+    ctx.strokeStyle = "black";
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.rect(350, 210, 200, 40);
+    ctx.strokeStyle = "black";
+    ctx.stroke();
+    ctx.closePath();
+
+    // mouth
+    ctx.beginPath();
+    ctx.rect(225, 350, 150, 100);
+    ctx.strokeStyle = "black";
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.rect(225, 350, 150, 100);
+    ctx.fillStyle = "tomato";
+    ctx.fill();
+    ctx.closePath();
+
+
+    // face outline
+    ctx.beginPath();
+    ctx.arc(305, 320, 300, 0, Math.PI*2, false);
+    ctx.strokeStyle = "black";
+    ctx.stroke();
+    ctx.closePath();
+
+</script>
+
+</body>
+</html>
