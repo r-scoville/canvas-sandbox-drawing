@@ -14,11 +14,11 @@
 
 <script>
 
-    // get canvas & context
-	var canvas = document.getElementById("myCanvas");
+    // Get canvas & context
+    var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
 
-    // eyes
+    // Draw eyes
     ctx.beginPath();
     ctx.arc(150, 300, 50, 0, Math.PI*2, false);
     ctx.fillStyle = "black";
@@ -43,7 +43,7 @@
     ctx.fill();
     ctx.closePath();
 
-    // eyebrows
+    // Draw eyebrows
     ctx.beginPath();
     ctx.rect(50, 210, 200, 40);
     ctx.strokeStyle = "black";
@@ -56,7 +56,7 @@
     ctx.stroke();
     ctx.closePath();
 
-    // mouth
+    // Draw mouth
     ctx.beginPath();
     ctx.rect(225, 350, 150, 100);
     ctx.strokeStyle = "black";
@@ -70,7 +70,7 @@
     ctx.closePath();
 
 
-    // face outline
+    // Draw face outline
     ctx.beginPath();
     ctx.arc(305, 320, 300, 0, Math.PI*2, false);
     ctx.strokeStyle = "black";
