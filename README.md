@@ -1,6 +1,5 @@
 # Canvas Sandbox Drawing
-Author: Rose Scoville  
-Date: 2021  
+Author: Rose Scoville
 
 <br />
 
